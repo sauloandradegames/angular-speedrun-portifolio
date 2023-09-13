@@ -6,8 +6,22 @@
         >
     </div>
 
-    <div class="title">
-        <h1><a [routerLink]="['content', id]">{{ cardTitle }}</a></h1>
+    <div class="game-platform">
+        <span>{{ gamePlatform }}</span>
+    </div>
+
+    <div class="game-name">
+        <h1><a href="{{ runLink }}">{{ gameName }}</a></h1>
+    </div>
+
+    <div class="run-category">
+        <h2>{{ runCategory }}</h2>
+    </div>
+
+    <div class="run-info">
+        <p>Data: {{ runDate }}</p>
+        <p>Tempo: {{ runTime }}</p>
+        <p>{{ runTimeMethod }}</p>
     </div>
 
 </div>

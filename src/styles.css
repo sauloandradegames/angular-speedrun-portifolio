@@ -12,6 +12,10 @@
     font-family: 'Segoe UI';
 }
 
+p {
+    color: grey;
+}
+
 a {
     text-decoration: none;
 }

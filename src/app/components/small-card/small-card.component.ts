@@ -9,7 +9,17 @@ export class SmallCardComponent {
   @Input()
   photoCover:string = '';
   @Input()
-  cardTitle:string = '';
+  gamePlatform:string = '';
   @Input()
-  id:string = "0";
+  gameName:string = '';
+  @Input()
+  runCategory:string = '';
+  @Input()
+  runDate:string = '';
+  @Input()
+  runTime:string = '';
+  @Input()
+  runTimeMethod:string = '';
+  @Input()
+  runLink:string = '';
 }
